@@ -8,8 +8,8 @@ const myFont = localFont({
 })
 
 export const metadata = {
-  title: 'Deepak👋',
-  description: 'Windows 95 themed portfolio of Deepak',
+  title: '<Mo/> 👋',
+  description: 'Windows 95 themed portfolio of Mo',
 }
 
 export default function RootLayout({ children }) {

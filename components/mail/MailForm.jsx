@@ -72,10 +72,10 @@ const MailForm = () => {
     setShowPrompt(true);
     emailjs
       .sendForm(
-        "service_pmmzcyj",
-        "template_ahlaht3",
+        "service_ziv13mw",
+        "template_hqfqx3e",
         form.current,
-        "5OrdRR34kKotA-hlE"
+        "y9ZZZ6eBgvyC4WJAu"
       )
       .then(
         (result) => {
@@ -85,7 +85,7 @@ const MailForm = () => {
         },
         (error) => {
           console.log(
-            `${error.text} : Message not sent! Try again. (or write to me at <hey.usedeep@gmail.com>)`
+            `${error.text} : Message not sent! Try again. (or write to me at <ahmedma@usc.edu>)`
           );
           setStatus(false);
           setErrorMessage(error.text);
@@ -126,7 +126,7 @@ const MailForm = () => {
             type="email"
             id="to"
             className={styles.to}
-            placeholder="hey.usedeep@gmail.com"
+            placeholder="ahmedma@usc.edu"
             disabled
           />
         </div>

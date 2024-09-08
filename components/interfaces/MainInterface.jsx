@@ -22,7 +22,7 @@ const MainInterface = () => {
     const pdfUrl= ResumePDF
     const link= document.createElement("a")
     link.href= pdfUrl
-    link.download= "Deepak-Resume"
+    link.download= "Mo-Resume"
     link.target= "_blank"
     link.rel="noopener noreferrer"
     document.body.appendChild(link)

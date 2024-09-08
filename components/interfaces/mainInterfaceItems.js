@@ -15,7 +15,7 @@ export const mainInterfaceItems = [
         content: <Guide />,
     },
     {
-        name: "Network Neighbourhood",
+        name: "Network Neighborhood",
         id: "networkNeighbourhood",
         icon: "/windowsIcons/network-neighbourhood.svg",
         target: "Not Found",
@@ -35,13 +35,13 @@ export const mainInterfaceItems = [
         target: "vids",
         content: "Press any key or I'll show your browser history to your parents",
     },
-    {
-        name: "Meme Vault",
-        id: "memes",
-        icon: "/windowsIcons/troll-face.png",
-        target: "dank",
-        content: memesList,
-    },
+    // {
+    //     name: "Meme Vault",
+    //     id: "memes",
+    //     icon: "/windowsIcons/troll-face.png",
+    //     target: "dank",
+    //     content: memesList,
+    // },
     {
         name: "About Me",
         id: "aboutMe",
@@ -64,7 +64,7 @@ export const mainInterfaceItems = [
         content: "",
     },
     {
-        name: "Download my résumé",
+        name: "Download my resume",
         id: "resume",
         icon: "/windowsIcons/resume.png",
         target: "system downloads",
